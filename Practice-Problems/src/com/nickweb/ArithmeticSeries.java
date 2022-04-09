@@ -6,14 +6,14 @@ public class ArithmeticSeries {
 
     public static void main(String[] args) {
 	// write your code here
-        int A, B, N, C, last = 0;
+        int A, B, N, C;
         Scanner sc = new Scanner(System.in);
         A = sc.nextInt();
         B = sc.nextInt();
         N = sc.nextInt();
 
         C = B - A;
-        last = A + (N - 1) * C;
+        int last = A + (N - 1) * C;
         System.out.println(last);
     }
 }
