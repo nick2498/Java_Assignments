@@ -19,7 +19,7 @@ public class ArithmeticSeries {
 }
 
     /*
-    # AP Series
+    # AP(Arithmetic Progression) Series
     - Problem Statement
     Q. Given the first 2 terms A and B of an Arithmetic Series, tell the Nth term of the series.
         - Input
