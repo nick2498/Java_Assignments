@@ -92,6 +92,7 @@ public class SearchAnElementInArray {
 // SC: O(1)
 
 
+
 /*
     Q. WAP to search an element in array.
 
