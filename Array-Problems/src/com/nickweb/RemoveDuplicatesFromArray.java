@@ -3,6 +3,7 @@ package com.nickweb;
 import java.util.HashMap;
 import java.util.LinkedHashSet;
 
+/*
 // Using HashMap
 public class RemoveDuplicatesFromArray {
     static void removeDuplicates(int[] arr, int n) {
@@ -28,8 +29,8 @@ public class RemoveDuplicatesFromArray {
 
 // TC: O(n)
 // SC: O(m)
+*/
 
-/*
 // Use HashSet if you don't want to maintain the insertion order OR Use LinkedHashSet if you want to maintain the insertion order
 // Using LinkedHashSet
 public class RemoveDuplicatesFromArray {
@@ -52,7 +53,6 @@ public class RemoveDuplicatesFromArray {
         removeDuplicates(arr);
     }
 }
-*/
 
 
 /*

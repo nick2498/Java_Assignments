@@ -11,45 +11,49 @@ public class ReverseAnArray {
     }
 }
 
-// 2. Using swapping
-//public class ReverseAnArray {
-//    public static void main(String[] args) {
-//        int[] arr = {2, 1, 4, 9, 7};
-//        int n = arr.length;
-//
-//        int i = 0, j = 0, swapping = 0;
-//
-//        for (i = 0; i < n/2; i++) {
-//            swapping = arr[i];
-//            arr[i] = arr[n - i - 1];
-//            arr[n - i - 1] = swapping;
-//        }
-//
-//        for (j = 0; j < n; j++) {
-//            System.out.print(arr[j] + " ");
-//        }
-//    }
-//}
+/*
+2. Using swapping
+public class ReverseAnArray {
+    public static void main(String[] args) {
+        int[] arr = {2, 1, 4, 9, 7};
+        int n = arr.length;
 
-// 3. Using temp array
-//public class ReverseAnArray {
-//    public static void main(String[] args) {
-//        int[] arr = {2, 1, 4, 9, 7};
-//        int n = arr.length;
-//        int[] tempArr = new int[n];
-//        int t = n;
-//
-//        for (int i = 0; i < n; i++) {
-//            tempArr[t - 1] = arr[i];
-//            t = t - 1;
-//        }
-//
-//        for (int j = 0; j < n; j++) {
-//            System.out.print(tempArr[j] + " ");
-//        }
-//
-//    }
-//}
+        int i = 0, j = 0, swapping = 0;
+
+        for (i = 0; i < n/2; i++) {
+            swapping = arr[i];
+            arr[i] = arr[n - i - 1];
+            arr[n - i - 1] = swapping;
+        }
+
+        for (j = 0; j < n; j++) {
+            System.out.print(arr[j] + " ");
+        }
+    }
+}
+*/
+
+/*
+3. Using temp array
+public class ReverseAnArray {
+    public static void main(String[] args) {
+        int[] arr = {2, 1, 4, 9, 7};
+        int n = arr.length;
+        int[] tempArr = new int[n];
+        int t = n;
+
+        for (int i = 0; i < n; i++) {
+            tempArr[t - 1] = arr[i];
+            t = t - 1;
+        }
+
+        for (int j = 0; j < n; j++) {
+            System.out.print(tempArr[j] + " ");
+        }
+
+    }
+}
+*/
 
 
 
